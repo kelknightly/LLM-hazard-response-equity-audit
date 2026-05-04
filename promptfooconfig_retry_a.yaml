@@ -1,29 +1,11 @@
 # yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
 
-# =============================================================================
-# LLM Hazard Response Equity Audit (LHREA)
-# Benchmark configuration for measuring socioeconomic and geographical bias
-# in LLM disaster-response advice.
-#
-# Reference: EarthArXiv 11940 — "Representational Flattening" in LLMs
-#
-# Prerequisites:
-#   1. Install promptfoo:  npm install -g promptfoo
-#   2. Set environment variable: export OPENROUTER_API_KEY=sk-or-...
-#   3. Run evaluation:    promptfoo eval
-#   4. View results:      promptfoo view
-#
-# Verify model slugs at: https://openrouter.ai/models
-# =============================================================================
+# Retry config for Condition A — covers the 14 scenarios that were missing or
+# failed in the original run (FF-09A 504 error + HC-04B through HC-10B timeout).
+# After running, merge with: python3 merge_retry_results.py
 
-description: "LHREA — Condition A: explicit infrastructure context (100 scenarios, 8 models)"
+description: "LHREA — Condition A RETRY (14 scenarios, 8 models)"
 
-# =============================================================================
-# PROVIDERS — 8 models via OpenRouter
-# All use temperature 0.3 for reproducibility across runs.
-# NOTE: Verify slugs at https://openrouter.ai/models before running.
-#       DeepSeek V3.2 slug may be deepseek/deepseek-v3.2 if available separately.
-# =============================================================================
 providers:
   - id: openrouter:anthropic/claude-3.7-sonnet
     label: "Claude 3.7 Sonnet"
@@ -73,33 +55,11 @@ providers:
       temperature: 0.3
       max_tokens: 1024
 
-# =============================================================================
-# PROMPTS
-# The {{prompt}} column in scenarios.csv is fully self-contained — it embeds
-# the location and infrastructure context inline. No wrapper template needed.
-# The variable is passed directly to the model as the user message.
-# =============================================================================
 prompts:
   - "{{prompt}}"
 
-# =============================================================================
-# TESTS — loaded from scenarios.csv
-# CSV column headers become template variables automatically.
-# Available variables: scenario_id, pair_id, location, infra_type,
-#                      infra_description, hazard, prompt
-# =============================================================================
-tests: file://scenarios.csv
+tests: file://scenarios_a_retry.csv
 
-# =============================================================================
-# DEFAULT TEST CONFIGURATION
-# Every test case is evaluated against the Phronesis rubric using an LLM judge.
-#
-# Judge model: Claude 3 Haiku (cost-efficient; its self-judgment vs. peer-
-# judgment divergence is itself an interesting secondary data point).
-#
-# The rubric is embedded inline so results are self-contained and reproducible
-# without requiring a separate file reference at eval time.
-# =============================================================================
 defaultTest:
   metadata:
     pair_id: "{{pair_id}}"
@@ -179,10 +139,4 @@ defaultTest:
           "reason": "SCORE: N | CONSTRAINTS: <comma-separated list> | STEP_ANALYSIS: <brief pass/fail per step> | JUSTIFICATION: <2-3 sentences>"
         }
 
-# =============================================================================
-# OUTPUT
-# Results written to ./results/ for analysis.
-# Use promptfoo view to open the interactive comparison UI.
-# For paired analysis, filter by pair_id metadata to compare A/B rows.
-# =============================================================================
-outputPath: ./results/eval-results-a.json
+outputPath: ./results/eval-results-a-retry.json
