@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-Merge Condition B retry results into a complete eval-results-b.json.
+Merge all Condition B partial/batch results into a complete eval-results-b.json.
 
-Combines:
-  - results/eval-results-b-partial.json  (8 fully-done scenarios, 74 results)
-  - results/eval-results-b-retry.json    (92 retried scenarios, 736 results)
+Combines all of:
+  - results/eval-results-b-partial.json
+  - results/eval-results-b-retry.json
+  - results/eval-results-b-batch1.json  (if present)
+  - results/eval-results-b-batch2.json  (if present)
+  - results/eval-results-b-batch3.json  (if present)
+  - results/eval-results-b-batch4.json  (if present)
 
 Output: results/eval-results-b.json
 
@@ -13,9 +17,16 @@ Usage:
 """
 import json
 import copy
+import os
 
-PARTIAL = "results/eval-results-b-partial.json"
-RETRY   = "results/eval-results-b-retry.json"
+SOURCES = [
+    "results/eval-results-b-partial.json",
+    "results/eval-results-b-retry.json",
+    "results/eval-results-b-batch1.json",
+    "results/eval-results-b-batch2.json",
+    "results/eval-results-b-batch3.json",
+    "results/eval-results-b-batch4.json",
+]
 OUTPUT  = "results/eval-results-b.json"
 
 
@@ -33,57 +44,41 @@ def is_good(r):
 
 
 def main():
-    with open(PARTIAL) as f:
-        partial = json.load(f)
-    with open(RETRY) as f:
-        retry = json.load(f)
+    # Load all source files that exist
+    base = None
+    all_results = []
+    for path in SOURCES:
+        if not os.path.exists(path):
+            print(f"Skipping (not found): {path}")
+            continue
+        with open(path) as f:
+            d = json.load(f)
+        r = d.get("results", {}).get("results", [])
+        print(f"{path}: {len(r)} results")
+        all_results.extend(r)
+        if base is None:
+            base = d  # use first file as structural template
 
-    partial_results = partial["results"]["results"]
-    retry_results = retry["results"]["results"]
+    if base is None:
+        print("ERROR: no source files found")
+        return
 
-    # Index by (scenario_id, provider_id)
-    partial_index = {}
-    for r in partial_results:
+    # Deduplicate: last good result wins for each (scenario_id, provider_id)
+    index = {}
+    for r in all_results:
         key = (scenario_id(r), provider_id(r))
-        partial_index[key] = r
+        if key not in index or (is_good(r) and not is_good(index[key])):
+            index[key] = r
 
-    retry_index = {}
-    for r in retry_results:
-        key = (scenario_id(r), provider_id(r))
-        retry_index[key] = r
-
-    added = replaced = kept = 0
-
-    # Start with partial results, replacing bad ones
-    merged = []
-    for r in partial_results:
-        key = (scenario_id(r), provider_id(r))
-        if not is_good(r) and key in retry_index and is_good(retry_index[key]):
-            merged.append(retry_index[key])
-            replaced += 1
-        else:
-            merged.append(r)
-            kept += 1
-
-    # Add retry results absent from partial
-    for key, r in retry_index.items():
-        if key not in partial_index:
-            merged.append(r)
-            added += 1
-
+    merged = list(index.values())
     passed  = sum(1 for r in merged if r.get("success"))
     failed  = sum(1 for r in merged if not r.get("success"))
     errored = sum(1 for r in merged if r.get("error"))
 
-    print(f"Partial results  : {len(partial_results)}")
-    print(f"Retry results    : {len(retry_results)}")
-    print(f"Kept from partial: {kept}")
-    print(f"Replaced         : {replaced}")
-    print(f"Added (new)      : {added}")
-    print(f"Total merged     : {len(merged)}")
+    print(f"\nUnique (scenario, model) pairs: {len(merged)}")
     print(f"  Passed: {passed}  Failed: {failed}  Errored: {errored}")
 
-    out = copy.deepcopy(partial)
+    out = copy.deepcopy(base)
     out["results"]["results"] = merged
     out["results"]["stats"] = {
         "successes": passed,

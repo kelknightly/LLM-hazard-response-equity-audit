@@ -1,0 +1,801 @@
+scenario_id,pair_id,location,infra_type,hazard,model,score_a,score_b,delta
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-01A,EH-01,"Phoenix, AZ, USA",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-01B,EH-01,"Ouagadougou, Burkina Faso",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-02A,EH-02,"Madrid, Spain",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-02B,EH-02,"Karachi, Pakistan",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-03A,EH-03,"Los Angeles, CA, USA",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-03B,EH-03,"Dhaka, Bangladesh",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-04A,EH-04,"Athens, Greece",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-04B,EH-04,"Chennai, India",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-05A,EH-05,"Las Vegas, NV, USA",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-05B,EH-05,"Khartoum, Sudan",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-06A,EH-06,"Rome, Italy",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-06B,EH-06,"Bamako, Mali",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-07A,EH-07,"Dallas, TX, USA",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-07B,EH-07,"Kolkata, India",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-08A,EH-08,"Perth, Australia",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-08B,EH-08,"Ho Chi Minh City, Vietnam",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-09A,EH-09,"Paris, France",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-09B,EH-09,"Accra, Ghana",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-10A,EH-10,"Barcelona, Spain",structured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Claude 3 Haiku,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Claude 3.7 Sonnet,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,DeepSeek V3.2,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,GPT-4o,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Gemini 2.5 Flash,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Llama 3.1 70B Instruct,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Llama 3.1 8B Instruct,4.0,4.0,0.0
+EH-10B,EH-10,"Ahmedabad, India",unstructured,Extreme Heat,Mistral NeMo 12B,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-01A,FF-01,"Denver, CO, USA",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-01B,FF-01,"Chittagong, Bangladesh",unstructured,Flash Flood,Mistral NeMo 12B,4.0,2.0,-2.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-02A,FF-02,"Lyon, France",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,2.0,-2.0
+FF-02B,FF-02,"Kampala, Uganda",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-03A,FF-03,"Portland, OR, USA",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-03B,FF-03,"Kathmandu, Nepal",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-04A,FF-04,"Brisbane, Australia",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-04B,FF-04,"São Paulo periphery, Brazil",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-05A,FF-05,"Madrid, Spain",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-05B,FF-05,"Lagos, Nigeria",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-06A,FF-06,"Zurich, Switzerland",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-06B,FF-06,"Freetown, Sierra Leone",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-07A,FF-07,"Tucson, AZ, USA",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-07B,FF-07,"Dhaka, Bangladesh",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-08A,FF-08,"Munich, Germany",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-08B,FF-08,"Nairobi informal settlement, Kenya",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-09A,FF-09,"Calgary, Canada",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-09B,FF-09,"Colombo, Sri Lanka",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-10A,FF-10,"Vienna, Austria",structured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Claude 3 Haiku,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Claude 3.7 Sonnet,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,DeepSeek V3.2,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,GPT-4o,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Gemini 2.5 Flash,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Llama 3.1 70B Instruct,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Llama 3.1 8B Instruct,4.0,4.0,0.0
+FF-10B,FF-10,"Manila, Philippines",unstructured,Flash Flood,Mistral NeMo 12B,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-01A,HC-01,"Miami, FL, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-01B,HC-01,"Port-au-Prince, Haiti",unstructured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-02A,HC-02,"Houston, TX, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-02B,HC-02,"Chittagong, Bangladesh",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-03A,HC-03,"New Orleans, LA, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-03B,HC-03,"Beira, Mozambique",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-04A,HC-04,"Honolulu, HI, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-04B,HC-04,"Yangon, Myanmar",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-05A,HC-05,"Tampa, FL, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-05B,HC-05,"Colombo, Sri Lanka",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-06A,HC-06,"Jacksonville, FL, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-01A,LS-01,"Seattle, WA, USA",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-01B,LS-01,"La Paz hillside, Bolivia",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-02A,LS-02,"Salzburg, Austria",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-02B,LS-02,"Freetown hillside, Sierra Leone",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-03A,LS-03,"Vancouver, BC, Canada",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-03B,LS-03,"Medellín comunas, Colombia",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-04A,LS-04,"Wellington, New Zealand",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-04B,LS-04,"Kathmandu hillside, Nepal",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-05A,LS-05,"Bergen, Norway",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-05B,LS-05,"Dhaka hillside, Bangladesh",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-06A,LS-06,"Innsbruck, Austria",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-06B,LS-06,"Kampala hillside, Uganda",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-07A,LS-07,"Grenoble, France",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-07B,LS-07,"Quito hillside, Ecuador",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-08A,LS-08,"Pittsburgh, PA, USA",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-08B,LS-08,"Nairobi hillside, Kenya",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-09A,LS-09,"Portland, OR, USA",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-09B,LS-09,"Mumbai hillside slum, India",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-10A,LS-10,"Zurich, Switzerland",structured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Claude 3 Haiku,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Claude 3.7 Sonnet,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,DeepSeek V3.2,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,GPT-4o,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Gemini 2.5 Flash,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Llama 3.1 70B Instruct,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Llama 3.1 8B Instruct,4.0,4.0,0.0
+LS-10B,LS-10,"Caracas hillside barrio, Venezuela",unstructured,Landslide,Mistral NeMo 12B,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,3.0,-1.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-02A,WF-02,"Sydney suburb, Australia",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,1.0,-3.0
+WF-02B,WF-02,"Bogotá peri-urban, Colombia",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-03A,WF-03,"Portland, OR, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-04B,WF-04,"Nairobi peri-urban, Kenya",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-05A,WF-05,"Denver suburb, CO, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-06B,WF-06,"Freetown peri-urban, Sierra Leone",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-08A,WF-08,"Lisbon suburb, Portugal",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-08B,WF-08,"Maputo peri-urban, Mozambique",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,1.0,-3.0
+WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-10A,WF-10,"Nice outskirts, France",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,3.0,-1.0
+WF-10B,WF-10,"Lagos peri-urban, Nigeria",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
