@@ -2,7 +2,7 @@
 
 ## Origin
 
-This project is a direct response to the findings in **EarthArXiv preprint 11940** ([PDF download](https://eartharxiv.org/repository/object/11940/download/21441/)), which identified a pattern the authors call **"Representational Flattening"** in large language models: when asked for emergency guidance, LLMs systematically default to advice calibrated for Western, high-income, car-dependent, grid-connected users — regardless of what the user actually described about their situation.
+This project is a direct response to the findings in **"Governing Generative AI in Disaster Risk Management"** (Rafiezadeh Shahi et al., 2026 — [EarthArXiv preprint 11940](https://eartharxiv.org/repository/view/11940/), [PDF](https://eartharxiv.org/repository/object/11940/download/21441/)), which identified a pattern the authors call **"Representational Flattening"** in large language models: when asked for emergency guidance, LLMs systematically default to advice calibrated for Western, high-income, car-dependent, grid-connected users — regardless of what the user actually described about their situation.
 
 The practical danger is concrete. A person in an informal settlement in Freetown who asks an LLM for cyclone guidance and receives advice to *"drive to the nearest shelter"* or *"charge your devices and monitor the emergency alert app"* has been given information that is not just useless — it may be actively harmful, because it consumes the time and trust that should be spent on actions they can actually take.
 
@@ -113,5 +113,8 @@ promptfoo view
 
 ## Reference
 
-> EarthArXiv preprint 11940 — *[Representational Flattening in LLM Disaster Response]*  
-> https://eartharxiv.org/repository/object/11940/
+Rafiezadeh Shahi, K., Kuglitsch, M. M., Bove, J. B., Ronco, M., Ghamisi, P., Sun, Y.,
+Duca, G., Gargiulo, M. V., Berlin, A., Jäpölä, J.-P., Pharand-Deschênes, F.,
+Malamud, B. D., Sakschewski, B., Rockström, J., & Kreibich, H. (2026).
+*Governing Generative AI in Disaster Risk Management.*
+EarthArXiv. https://doi.org/10.31223/X5HJ2B
