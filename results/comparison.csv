@@ -416,7 +416,7 @@ HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Llama 3.1 70B Instruct,4.0,4.
 HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-06B,HC-06,"Chennai, India",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
-HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -424,7 +424,7 @@ HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Llama 3.1 70B Instruct,4
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-07A,HC-07,"Wilmington, NC, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
-HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -432,7 +432,7 @@ HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Llama 3.1 70B Instru
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-07B,HC-07,"Cox's Bazar, Bangladesh",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
-HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,GPT-4o,4.0,4.0,0.0
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -440,7 +440,7 @@ HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Llama 3.1 70B Instruct,4.0,4
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-08A,HC-08,"Cairns, Australia",structured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
-HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -448,7 +448,7 @@ HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Llama 3.1 70B Instruct,4.
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-08B,HC-08,"Maputo, Mozambique",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
-HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -456,7 +456,7 @@ HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Llama 3.1 70B Instruct,4.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-09A,HC-09,"Savannah, GA, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
-HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -464,7 +464,7 @@ HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Llama 3.1 70B Instr
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-09B,HC-09,"Antananarivo, Madagascar",unstructured,Cyclone,Mistral NeMo 12B,4.0,4.0,0.0
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Claude 3 Haiku,4.0,4.0,0.0
-HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,,
+HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,DeepSeek V3.2,4.0,4.0,0.0
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,GPT-4o,4.0,4.0,0.0
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -472,7 +472,7 @@ HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Llama 3.1 70B Instru
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Llama 3.1 8B Instruct,4.0,4.0,0.0
 HC-10A,HC-10,"Virginia Beach, VA, USA",structured,Hurricane,Mistral NeMo 12B,4.0,4.0,0.0
 HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Claude 3 Haiku,4.0,4.0,0.0
-HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,,
+HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Claude 3.7 Sonnet,4.0,4.0,0.0
 HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,DeepSeek V3.2,4.0,4.0,0.0
 HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,GPT-4o,4.0,4.0,0.0
 HC-10B,HC-10,"Cuttack, Odisha, India",unstructured,Cyclone,Gemini 2.5 Flash,4.0,4.0,0.0
@@ -645,7 +645,7 @@ WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
 WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
 WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
 WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
-WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,3.0,-1.0
+WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,2.0,-2.0
 WF-01A,WF-01,"Malibu, CA, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
 WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
 WF-01B,WF-01,"Valparaíso hillside, Chile",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
@@ -685,7 +685,7 @@ WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire
 WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
 WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
 WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
-WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,2.0,-2.0
 WF-03B,WF-03,"Cape Town informal settlement, South Africa",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
 WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
 WF-04A,WF-04,"Madrid outskirts, Spain",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
@@ -717,7 +717,7 @@ WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,DeepSeek V3.2
 WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,GPT-4o,4.0,4.0,0.0
 WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
 WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
-WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Llama 3.1 8B Instruct,4.0,1.0,-3.0
 WF-05B,WF-05,"Jakarta peri-urban, Indonesia",unstructured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
 WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
 WF-06A,WF-06,"Athens suburb, Greece",structured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
@@ -741,7 +741,7 @@ WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.
 WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,GPT-4o,4.0,4.0,0.0
 WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
 WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
-WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Llama 3.1 8B Instruct,4.0,2.0,-2.0
 WF-07A,WF-07,"Victoria, BC, Canada",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
 WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
 WF-07B,WF-07,"Kathmandu peri-urban, Nepal",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0
@@ -773,7 +773,7 @@ WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,DeepSeek V3.2,4.0,4.0,0.0
 WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,GPT-4o,4.0,4.0,0.0
 WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Gemini 2.5 Flash,4.0,4.0,0.0
 WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Llama 3.1 70B Instruct,4.0,4.0,0.0
-WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,4.0,0.0
+WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Llama 3.1 8B Instruct,4.0,1.0,-3.0
 WF-09A,WF-09,"Sacramento, CA, USA",structured,Wildfire,Mistral NeMo 12B,4.0,4.0,0.0
 WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Claude 3 Haiku,4.0,4.0,0.0
 WF-09B,WF-09,"Caracas barrio, Venezuela",unstructured,Wildfire,Claude 3.7 Sonnet,4.0,4.0,0.0

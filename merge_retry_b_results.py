@@ -26,6 +26,7 @@ SOURCES = [
     "results/eval-results-b-batch2.json",
     "results/eval-results-b-batch3.json",
     "results/eval-results-b-batch4.json",
+    "results/eval-results-b-retry-sonnet.json",
 ]
 OUTPUT  = "results/eval-results-b.json"
 

@@ -9,6 +9,10 @@
 
 ## Purpose
 
+**Phronesis** (φρόνησις) is an ancient Greek term, central to Aristotle's ethics, usually translated as *practical wisdom*: the capacity to discern the right course of action in a specific, concrete situation. It is distinct from *episteme* (theoretical knowledge) and *techne* (technical skill) — a model can possess both while still failing at phronesis if it cannot translate that knowledge into advice that is actually executable in the real world in front of it.
+
+The name is deliberate. This rubric does not test whether a model knows correct disaster science. It tests whether a model can reason practically about what *this person*, in *this place*, with *these constraints*, can actually do.
+
 This rubric measures a single quality: **Contextual Appropriateness (Phronesis)** — the degree to which a model's advice is *practically executable given the infrastructure and resources explicitly described in the prompt*.
 
 ### What this rubric DOES measure

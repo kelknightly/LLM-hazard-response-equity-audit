@@ -2,7 +2,7 @@
 
 ## Origin
 
-This project is a direct response to the findings in **EarthArXiv preprint 11940**, which identified a pattern the authors call **"Representational Flattening"** in large language models: when asked for emergency guidance, LLMs systematically default to advice calibrated for Western, high-income, car-dependent, grid-connected users — regardless of what the user actually described about their situation.
+This project is a direct response to the findings in **EarthArXiv preprint 11940** ([PDF download](https://eartharxiv.org/repository/object/11940/download/21441/)), which identified a pattern the authors call **"Representational Flattening"** in large language models: when asked for emergency guidance, LLMs systematically default to advice calibrated for Western, high-income, car-dependent, grid-connected users — regardless of what the user actually described about their situation.
 
 The practical danger is concrete. A person in an informal settlement in Freetown who asks an LLM for cyclone guidance and receives advice to *"drive to the nearest shelter"* or *"charge your devices and monitor the emergency alert app"* has been given information that is not just useless — it may be actively harmful, because it consumes the time and trust that should be spent on actions they can actually take.
 
@@ -35,16 +35,53 @@ The primary bias signal is the **paired score gap**: a model that scores 4.2 on 
 
 ### Models Tested
 
-| Model | Provider |
-|-------|----------|
-| Claude 3.5 Sonnet v2 | Anthropic |
-| Claude 3 Haiku | Anthropic |
-| GPT-4o | OpenAI |
-| Gemini 1.5 Pro v2 | Google |
-| Llama 3.1 8B Instruct | Meta |
-| Llama 3.1 70B Instruct | Meta |
-| Mistral NeMo 12B | Mistral AI |
-| DeepSeek V3.2 | DeepSeek |
+Claude 3.7 Sonnet, Claude 3 Haiku, GPT-4o, Gemini 2.5 Flash, Llama 3.1 8B Instruct,
+Llama 3.1 70B Instruct, Mistral NeMo 12B, DeepSeek V3.2. See [METHODOLOGY.md](METHODOLOGY.md)
+for the rationale behind this spread.
+
+---
+
+## Results
+
+The audit confirmed the Representational Flattening pattern described in preprint 11940,
+and extended it with a new experimental dimension: testing whether the gap persists when
+models are given only a location name and hazard type, with no infrastructure description
+(Condition B).
+
+**Key findings** — full analysis in [FINDINGS.md](FINDINGS.md):
+
+- **The equity gap is real but context-dependent.** When infrastructure constraints are
+  explicitly stated (Condition A), six of eight models score 4/5 for both structured and
+  unstructured users — no gap. When context is removed (Condition B), the gap opens:
+  unstructured users degrade more than structured users, confirming the paper's hypothesis
+  that models default to high-resource assumptions in the absence of explicit signals.
+
+- **Llama 3.1 8B is the primary risk model.** The only open-weights 8B model in the
+  benchmark dropped from 4.00 to 3.79 in Condition B, with an equity gap (structured −
+  unstructured) of 0.14 — absent in all other models. It also refused to provide emergency
+  wildfire guidance entirely for several scenarios when infrastructure context was removed,
+  scoring 1/5 for both structured (Malibu, Sacramento) and unstructured (Bogotá, Jakarta)
+  locations. This matters because Llama 3.1 8B is the model most likely to be self-hosted
+  by NGOs and community organisations in exactly the settings where unstructured
+  infrastructure is the reality.
+
+- **Wildfire is the highest-risk hazard.** The only hazard with meaningful score degradation
+  in Condition B (Δ = −0.12), entirely driven by the Llama 3.1 8B refusal pattern.
+
+- **Frontier models are robust.** Claude (both tiers), GPT-4o, Gemini 2.5 Flash, Llama 70B,
+  and DeepSeek V3.2 all maintained a mean score of 4.00 across both conditions with zero
+  equity gap — demonstrating that geographic inference without explicit context is achievable
+  at scale.
+
+**A note on AI-as-evaluator:** During review, the Claude 3 Haiku judge was found to
+hallucinate evaluation steps for responses that were outright refusals, awarding scores of
+3–4/5 to empty or one-sentence outputs by fabricating steps that were never written. This
+was caught through manual review and corrected with human-assigned scores. The incident is
+documented in full in [LLM_JUDGE_HALLUCINATION.md](LLM_JUDGE_HALLUCINATION.md) and is
+itself a finding: AI evaluation pipelines require human spot-checks for refusal-class
+responses.
+
+---
 
 ## Files
 
@@ -52,8 +89,11 @@ The primary bias signal is the **paired score gap**: a model that scores 4.2 on 
 |------|---------|
 | `scenarios.csv` | 100 test prompts (the benchmark dataset) |
 | `evaluation_criteria.md` | Pre-registered Phronesis rubric for scoring responses |
-| `promptfooconfig.yaml` | Promptfoo configuration to run the evaluation |
-| `results/` | Output directory for eval results (created on first run) |
+| `promptfooconfig.yaml` | Promptfoo configuration to run the evaluation (Condition A) |
+| `METHODOLOGY.md` | Models, framework, API setup, judge design, and rubric summary |
+| `FINDINGS.md` | Full results and analysis |
+| `LLM_JUDGE_HALLUCINATION.md` | Forensic record of judge hallucination with raw evidence |
+| `results/` | Eval outputs (JSON) and row-level comparison CSV |
 
 ## Running the Audit
 
@@ -64,7 +104,7 @@ npm install -g promptfoo
 # Set your OpenRouter API key
 export OPENROUTER_API_KEY=sk-or-...
 
-# Run all 800 evaluations
+# Run all 800 evaluations (Condition A)
 promptfoo eval
 
 # Open the interactive results viewer
